@@ -1,4 +1,5 @@
 public class Lawyer extends Employee{
+  String nameLawyer;
 
   // Add this method opvly for lawyers
 
@@ -9,5 +10,13 @@ public class Lawyer extends Employee{
   @Override
   public double getSalary() {
     return 4500;
+  }
+
+  // Constructor
+  public Lawyer(String nameLawyer){
+    this.nameLawyer = nameLawyer;
+  }
+
+  public Lawyer() {
   }
 }
