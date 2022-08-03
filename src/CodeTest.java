@@ -12,8 +12,11 @@ public class CodeTest {
 
     System.out.println(e.getVacationDays());
     System.out.println(l.getLawyerPosition());
+    System.out.println(l.getSalary());
     System.out.println(s.getVacationDays());
-    System.out.println(m.insideMarket());
+    System.out.println(m.getHours());
+    System.out.println(m.getVacationDays());
+    System.out.println(m.getSalary());
     System.out.println(ls.getVacationDays());
 
   }

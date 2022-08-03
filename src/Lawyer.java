@@ -5,4 +5,9 @@ public class Lawyer extends Employee{
   public char getLawyerPosition(){
     return 'm';
   }
+
+  @Override
+  public double getSalary() {
+    return 4500;
+  }
 }
